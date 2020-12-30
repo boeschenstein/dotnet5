@@ -10,7 +10,27 @@ https://docs.microsoft.com/en-us/dotnet/core/compatibility/5.0
 - https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools
 - https://www.nuget.org/packages?packagetype=dotnettool
 
-nuget.config
+Open Visual Studio's Package Manager Console (where Package Source `https://api.nuget.org/v3/index.json` is configured) and start:
+
+```cmd
+dotnet tool install --global dotnet-dump  
+dotnet tool install --global dotnet-ef  
+dotnet tool install --global dotnet-gcdump  
+dotnet tool install --global dotnet-trace  
+dotnet tool install --global dotnet-counters  
+```
+
+or
+
+```cmd
+dotnet tool update --global dotnet-dump  
+dotnet tool update --global dotnet-ef  
+dotnet tool update --global dotnet-gcdump  
+dotnet tool update --global dotnet-trace  
+dotnet tool update --global dotnet-counters  
+```
+
+Using nuget.config
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
