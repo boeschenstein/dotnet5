@@ -1,5 +1,4 @@
-# dotnet5
-dotnet5
+# .NET 5
 
 ## Compatibility
 
