@@ -31,6 +31,17 @@ dotnet tool install --global dotnet-symbol
 or
 
 ```cmd
+dotnet tool install --global dotnet-dump --version 3.*
+dotnet tool install --global dotnet-ef --version 3.*
+dotnet tool install --global dotnet-gcdump --version 3.*
+dotnet tool install --global dotnet-trace --version 3.*
+dotnet tool install --global dotnet-counters --version 3.*
+dotnet tool install --global dotnet-symbol --version 3.*
+```
+
+or
+
+```cmd
 dotnet tool update --global dotnet-dump  
 dotnet tool update --global dotnet-ef  
 dotnet tool update --global dotnet-gcdump  
