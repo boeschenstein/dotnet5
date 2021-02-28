@@ -1,8 +1,22 @@
-# .NET 3 + 5
+# .NET Core 3 / .NET 5
 
 ## Compatibility (.NET 5)
 
 https://docs.microsoft.com/en-us/dotnet/core/compatibility/5.0
+
+## Upgrade .NET Core 3 -> .NET 5
+
+Edit csproj, change from:
+
+```xml
+<TargetFramework>netcoreapp3.1</TargetFramework>
+```
+
+to:
+
+```xml
+<TargetFramework>net5.0</TargetFramework>
+```
 
 ## CLI
 
