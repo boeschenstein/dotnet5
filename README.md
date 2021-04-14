@@ -104,6 +104,13 @@ dotnet tool list --global
 - `dotnet dump`
 - `dotnet monitor`
 
+## AutoMapper
+
+>Alternatives: Pure functions (faster, less hassle)
+
+- <https://cezarypiatek.github.io/post/why-i-dont-use-automapper/>
+- <https://ivanazure.wordpress.com/2015/12/02/why-automapping-is-bad-for-you/>
+
 ## Information
 
 - Nuget: <https://github.com/boeschenstein/nuget>
