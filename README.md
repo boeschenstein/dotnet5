@@ -104,6 +104,22 @@ dotnet tool list --global
 - `dotnet dump`
 - `dotnet monitor`
 
+### Upgrade to .NET 5
+
+install or upgrade project converter
+
+```cmd
+dotnet tool install -g try-convert
+```
+
+install or upgrade "Upgrade assistant"
+
+```cmd
+dotnet tool install -g upgrade-assistant
+```
+
+Details: <https://github.com/dotnet/upgrade-assistant>
+
 ## AutoMapper
 
 >Alternatives: Pure functions (faster, less hassle)
