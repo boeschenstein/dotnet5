@@ -62,6 +62,7 @@ dotnet tool update --global dotnet-gcdump
 dotnet tool update --global dotnet-trace  
 dotnet tool update --global dotnet-counters  
 dotnet tool update --global dotnet-symbol
+dotnet tool install -g Microsoft.Web.LibraryManager.Cli
 ```
 
 Using nuget.config
@@ -86,6 +87,7 @@ dotnet tool uninstall --global dotnet-gcdump
 dotnet tool uninstall --global dotnet-trace
 dotnet tool uninstall --global dotnet-counters
 dotnet tool uninstall --global dotnet-symbol
+dotnet tool uninstall -g Microsoft.Web.LibraryManager.Cli
 
 dotnet tool update --global dotnet-dump  --configfile %nugetFile%
 dotnet tool update --global dotnet-ef  --configfile %nugetFile%
@@ -93,6 +95,7 @@ dotnet tool update --global dotnet-gcdump  --configfile %nugetFile%
 dotnet tool update --global dotnet-trace  --configfile %nugetFile%
 dotnet tool update --global dotnet-counters  --configfile %nugetFile%
 dotnet tool update --global dotnet-symbol  --configfile %nugetFile%
+dotnet tool update -g Microsoft.Web.LibraryManager.Cli
 
 dotnet tool list --global
 ```
@@ -130,3 +133,4 @@ Details: <https://github.com/dotnet/upgrade-assistant>
 ## Information
 
 - Nuget: <https://github.com/boeschenstein/nuget>
+- LibMan: <https://docs.microsoft.com/en-us/aspnet/core/client-side/libman/libman-cli>
