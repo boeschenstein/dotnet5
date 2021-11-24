@@ -130,6 +130,11 @@ Details: <https://github.com/dotnet/upgrade-assistant>
 - <https://cezarypiatek.github.io/post/why-i-dont-use-automapper/>
 - <https://ivanazure.wordpress.com/2015/12/02/why-automapping-is-bad-for-you/>
 
+## LibMan - Client Side Package Manager
+
+1. Install LibMan
+2. Right-Click on your project: Add... Client-Side Library
+
 ## Information
 
 - Nuget: <https://github.com/boeschenstein/nuget>
