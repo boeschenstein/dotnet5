@@ -40,29 +40,22 @@ dotnet tool install --global dotnet-gcdump
 dotnet tool install --global dotnet-trace  
 dotnet tool install --global dotnet-counters  
 dotnet tool install --global dotnet-symbol
+dotnet tool install --global Microsoft.Web.LibraryManager.Cli
 ```
 
-or
+- There the shortcut for --global: -g
+- You can add specific versions. example --version 3.*
+
+Updates:
 
 ```cmd
-dotnet tool install --global dotnet-dump --version 3.*
-dotnet tool install --global dotnet-ef --version 3.*
-dotnet tool install --global dotnet-gcdump --version 3.*
-dotnet tool install --global dotnet-trace --version 3.*
-dotnet tool install --global dotnet-counters --version 3.*
-dotnet tool install --global dotnet-symbol --version 3.*
-```
-
-or
-
-```cmd
-dotnet tool update --global dotnet-dump  
-dotnet tool update --global dotnet-ef  
-dotnet tool update --global dotnet-gcdump  
-dotnet tool update --global dotnet-trace  
-dotnet tool update --global dotnet-counters  
-dotnet tool update --global dotnet-symbol
-dotnet tool install -g Microsoft.Web.LibraryManager.Cli
+dotnet tool update -g dotnet-dump  
+dotnet tool update -g dotnet-ef  
+dotnet tool update -g dotnet-gcdump  
+dotnet tool update -g dotnet-trace  
+dotnet tool update -g dotnet-counters  
+dotnet tool update -g dotnet-symbol
+dotnet tool update -g Microsoft.Web.LibraryManager.Cli
 ```
 
 Using nuget.config
@@ -81,21 +74,21 @@ tool-update.cmd
 ```dos
 SET nugetFile=.\nuget.config
 
-dotnet tool uninstall --global dotnet-dump
-dotnet tool uninstall --global dotnet-ef
-dotnet tool uninstall --global dotnet-gcdump 
-dotnet tool uninstall --global dotnet-trace
-dotnet tool uninstall --global dotnet-counters
-dotnet tool uninstall --global dotnet-symbol
+dotnet tool uninstall -g dotnet-dump
+dotnet tool uninstall -g dotnet-ef
+dotnet tool uninstall -g dotnet-gcdump 
+dotnet tool uninstall -g dotnet-trace
+dotnet tool uninstall -g dotnet-counters
+dotnet tool uninstall -g dotnet-symbol
 dotnet tool uninstall -g Microsoft.Web.LibraryManager.Cli
 
-dotnet tool update --global dotnet-dump  --configfile %nugetFile%
-dotnet tool update --global dotnet-ef  --configfile %nugetFile%
-dotnet tool update --global dotnet-gcdump  --configfile %nugetFile%
-dotnet tool update --global dotnet-trace  --configfile %nugetFile%
-dotnet tool update --global dotnet-counters  --configfile %nugetFile%
-dotnet tool update --global dotnet-symbol  --configfile %nugetFile%
-dotnet tool update -g Microsoft.Web.LibraryManager.Cli
+dotnet tool update -g dotnet-dump  --configfile %nugetFile%
+dotnet tool update -g dotnet-ef  --configfile %nugetFile%
+dotnet tool update -g dotnet-gcdump  --configfile %nugetFile%
+dotnet tool update -g dotnet-trace  --configfile %nugetFile%
+dotnet tool update -g dotnet-counters  --configfile %nugetFile%
+dotnet tool update -g dotnet-symbol  --configfile %nugetFile%
+dotnet tool update -g Microsoft.Web.LibraryManager.Cli  --configfile %nugetFile%
 
 dotnet tool list --global
 ```
