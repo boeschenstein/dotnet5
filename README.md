@@ -116,6 +116,12 @@ dotnet tool install -g upgrade-assistant
 
 Details: <https://github.com/dotnet/upgrade-assistant>
 
+### Local vs Global installation
+
+In a CI/CD project, it is recommended to install the tools locally.
+
+<https://andrewlock.net/new-in-net-core-3-local-tools/>
+
 ## AutoMapper
 
 >Alternatives: Pure functions (faster, less hassle)
