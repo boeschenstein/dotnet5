@@ -58,6 +58,9 @@ dotnet tool update -g dotnet-symbol
 dotnet tool update -g Microsoft.Web.LibraryManager.Cli
 ```
 
+> IMPORTANT: Do not install tools globally. Use dotnet-tools.json + 'dotnet tool restore' instead. Using this technique, you can have different .NET versions on your build server.
+> Detials see: <https://learn.microsoft.com/en-us/dotnet/core/tools/local-tools-how-to-use>
+
 Using nuget.config
 
 ```xml
