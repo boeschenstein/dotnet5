@@ -29,6 +29,7 @@ Lists all installed sdk and runtime:
 ### dotnet Tools
 
 - https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools
+- https://learn.microsoft.com/en-us/dotnet/core/diagnostics/tools-overview
 - https://www.nuget.org/packages?packagetype=dotnettool
 
 Open Visual Studio's Package Manager Console (where Package Source `https://api.nuget.org/v3/index.json` is configured) and start:
