@@ -128,10 +128,12 @@ In a CI/CD project, it is recommended to install the tools locally.
 
 ## AutoMapper
 
->Alternatives: Pure functions (faster, less hassle)
+>Do not use it for new projects. Consider alternatives: Pure functions (faster, less hassle, compile time error instead of runtime error)
 
 - <https://cezarypiatek.github.io/post/why-i-dont-use-automapper/>
 - <https://ivanazure.wordpress.com/2015/12/02/why-automapping-is-bad-for-you/>
+- Generates mapper code (to get compile time error instead of runtime error) <https://mapperly.riok.app/>
+- If you have it in your old project: AutoMapper Usage Guidelines <https://www.jimmybogard.com/automapper-usage-guidelines/>
 
 ## LibMan - Client Side Package Manager
 
